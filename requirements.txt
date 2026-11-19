@@ -1,0 +1,9 @@
+# Çeviri - ekran ROI çevirmeni bağımlılıkları
+# Sürümler pip üzerinde doğrulanmış sürümlerdir; Python 3.11-3.13 ile uyumludur.
+# httpx doğrudan içe aktarılmadığı için sabitlenmedi; istek zaman aşımı
+# asyncio.wait_for ile toplam süre üzerinden uygulanır.
+googletrans==4.0.2
+PySide6==6.12.0
+mss==10.2.0
+pytesseract==0.3.13
+Pillow==13.0.0
